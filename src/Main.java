@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
 
         BaseSalaryCalculator[] reps = {
-                new SeniorSalaryCalculator(new DeveloperReport("Becki", "Senior Developer", 30.5, 160)),
+               // new SeniorSalaryCalculator(new DeveloperReport("Becki", "Senior Developer", 30.5, 160)),
                 new JuniorSalaryCalculator(new DeveloperReport("Leo", "Junior Developer", 20, 150)),
                 new SeniorSalaryCalculator(new DeveloperReport("MeM", "Senior Developer", 30.5, 180)),
                 new ProjectOfficer(new DeveloperReport("Wolfgang", "Project Officer", 20, 120)),
